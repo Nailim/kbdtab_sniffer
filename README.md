@@ -57,7 +57,7 @@ And then call the script in *$home/bin/rc/riostart* file:
 
 Makse sure you run rio with scroll enabled (flag -s), or it will block keyboard input untill the output window is scrolled to allow all the text to be printed.
 
-Example:
+Run this from the command line to start rio OR edit your $HOME/lib/profile file to match:
 
 `rio -i riostart -s`
 

@@ -37,6 +37,10 @@ fprint(2, "\n");
 
 	fprint(2, "processkbd - mod raw: %d\n", mod);
 
+	for(p = s+1; *p != 0; p += 1){
+		fprint(2, "processkbd: *s+... %d\n", *p);
+	}
+
 	for(p = s+1; *p != 0; p += n){
 		if((n = chartorune(&r, p)) == 1 && r == Runeerror){
 			/* bail out */
